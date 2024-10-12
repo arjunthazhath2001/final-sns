@@ -1,10 +1,9 @@
 import React from 'react';
-import { ExpandableCardDemo2 } from './ExpandableCardDemo2';
-import { ExpandableCardDemo1 } from './ExpandableCardDemo1';
+import { LayoutGridDemo } from './LayoutGridDemo';
 
 export default function Spine() {
   return (
-    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center space-y-4 sm:space-y-8 relative'>
+    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center space-y-0 relative'>
       {/* Title Section */}
       <div className="w-full text-center">
         <span className="sm:text-3xl md:text-4xl text-xl lg:text-5xl xl:text-7xl font-extrabold text-yellow-400">
@@ -19,16 +18,13 @@ export default function Spine() {
       </div>
 
       {/* Main UI Components */}
-      <div className="w-full max-w-7xl px-4 md:px-0 grid sm:gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-        {/* First column of cards */}
-        <div className="flex flex-col sm:gap-4">
-          <ExpandableCardDemo1 />
-        </div>
-        {/* Second column of cards */}
-        <div className="flex flex-col sm:gap-4">
-          <ExpandableCardDemo2 />
+
+      <div className="w-full max-w-7xl px-4 md:px-0 grid grid-cols-1">    
+        <div className="scale-90">  {/* Reduce the layout grid size by 10% */}
+          <LayoutGridDemo/>
         </div>
       </div>
     </div>
   );
 }
+
