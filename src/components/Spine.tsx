@@ -13,7 +13,7 @@ export default function Spine() {
         </span>
 
         {/* Small paragraph below title */}
-        <p className="text-sm sm:text-base lg:text-md dark:text-gray-400 text-gray-700  mt-5">
+        <p className="text-[8px] sm:text-base lg:text-md dark:text-gray-400 text-gray-700  mt-5 mx-5">
           To provide an activity centre that will be user-friendly and open to all groups and members of the community.
         </p>
       </div>
