@@ -69,14 +69,15 @@ export function ExpandableCardDemo1() {
               className="w-full max-w-[550px] h-full md:h-fit md:max-h-[95%] flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden"
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
-                <Image
-                  priority
-                  width={1000}
-                  height={1000}
-                  src={active.src}
-                  alt={active.title}
-                  className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-center"
-                />
+              <Image
+                priority
+                width={1000}
+                height={1000}
+                src={active.src}
+                alt={typeof active.title === "string" ? active.title : "image"}
+                className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-center"
+              />
+
               </motion.div>
 
               <div>
@@ -145,7 +146,7 @@ export function ExpandableCardDemo1() {
                   width={1000}
                   height={1000}
                   src={card.src}
-                  alt={card.title}
+                  alt={typeof card.title === "string" ? card.title : "image"}
                   className="h-10 w-10 rounded-md md:h-12 md:w-12 xl:h-16 xl:w-16 md:rounded-md xl:rounded-lg object-cover object-center"
                 />
               </motion.div>
