@@ -4,7 +4,7 @@ import { LayoutGrid } from "@/components/ui/layout-grid";
 
 export function LayoutGridDemo() {
   return (
-    <div className="h-[600px] w-full py-0"> {/* Ensuring the grid takes full viewport height */}
+    <div className="h-[600px] w-full py-0 cursor-pointer"> {/* Ensuring the grid takes full viewport height */}
       <LayoutGrid cards={cards} />
     </div>
   );

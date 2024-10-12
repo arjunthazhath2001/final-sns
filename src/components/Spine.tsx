@@ -4,17 +4,13 @@ import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 export default function Spine() {
   return (
-    <div className="bg-transparent w-full min-h-[80vh] flex flex-col items-center justify-center pt-24 relative">
+    <div className="bg-transparent w-full min-h-[80vh] flex flex-col items-center justify-center space-y-4 pt-24 relative">
       {/* Title Section */}
       <div className="w-full text-center">
         <span className="sm:text-3xl md:text-4xl text-xl lg:text-5xl xl:text-7xl font-extrabold text-yellow-400">
           SPINE : <span className='text-black dark:text-white'> Our Unique Approach</span>
         </span>
 
-        {/* Small paragraph below title */}
-        <p className="text-[8px] sm:text-base lg:text-md dark:text-gray-200 text-gray-700 mt-3 sm:mt-5 mx-12 text-center">
-          Click on each image to know more
-        </p>
       </div>
 
       {/* Main UI Components */}
