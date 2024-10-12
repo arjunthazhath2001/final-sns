@@ -18,7 +18,7 @@ export default function AcademicsPage() {
       </section>
 
       {/* Section 2 */}
-      <section className="md:max-xl:max-h-[500px] md:max-xl:mb-20 sm:max-md:mb-32 mb-12 flex items-center justify-center px-4 sm:px-6">
+      <section className="md:max-xl:max-h-[500px] md:max-xl:my-20 sm:max-md:my-32 my-12 flex items-center justify-center px-4 sm:px-6">
         <div className="w-full text-center">
           <FeaturedPrograms/>
         </div>
