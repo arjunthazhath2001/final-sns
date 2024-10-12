@@ -4,7 +4,7 @@ import { HoverBorderGradient } from "./ui/hover-border-gradient";
 
 export default function Spine() {
   return (
-    <div className="bg-transparent w-full min-h-[80vh] flex flex-col items-center justify-center pt-24 space-y-4 relative">
+    <div className="bg-transparent w-full min-h-[80vh] flex flex-col items-center justify-center pt-24 relative">
       {/* Title Section */}
       <div className="w-full text-center">
         <span className="sm:text-3xl md:text-4xl text-xl lg:text-5xl xl:text-7xl font-extrabold text-yellow-400">
