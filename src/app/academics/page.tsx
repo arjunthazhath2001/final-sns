@@ -11,7 +11,7 @@ export default function AcademicsPage() {
   return (
     <div className="flex flex-col w-full">
       {/* Section 1 */}
-      <section className="pt-20 pb-44 flex items-center justify-center px-4 sm:px-6">
+      <section className="pt-20 pb-44 xl:pt-44 flex items-center justify-center px-4 sm:px-6">
         <div className="w-full text-center">       
           <SparklesPreview/>
         </div>
