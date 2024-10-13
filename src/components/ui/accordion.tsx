@@ -31,7 +31,7 @@ const AccordionTrigger = React.forwardRef<
       ref={ref}
       className={cn(
         // Here we're adding the color change for dark and light modes
-        "flex flex-1 items-center justify-between py-4 text-sm sm:text-xl font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
+        "flex flex-1 items-center justify-between py-4 text-[10px] sm:text-xl text-left font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
         "text-black dark:text-white",  // Black text in light mode, white in dark mode
         className
       )}
@@ -55,7 +55,7 @@ const AccordionContent = React.forwardRef<
   >
     <div className={cn(
       "pb-4 pt-0", 
-      "text-black dark:text-white text-sm sm:text-xl font-medium text-left",  
+      "text-black dark:text-white text-[10px] sm:text-xl font-medium text-left",  
       className
     )}>
       {children}
