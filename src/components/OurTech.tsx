@@ -4,7 +4,7 @@ import { HoverBorderGradient } from './ui/hover-border-gradient';
 
 export default function OurTech() {
   return (
-    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center mt-44 space-y-4 sm:space-y-8 relative'>
+    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center sm:mt-44 space-y-4 sm:space-y-8 relative'>
       {/* Title Section */}
       <div className="w-full text-center">
         <span className="sm:text-3xl md:text-4xl text-2xl lg:text-5xl xl:text-7xl font-extrabold text-black dark:text-white">
@@ -13,7 +13,7 @@ export default function OurTech() {
       </div>
 
       {/* Main UI Component */}
-      <div className="w-full max-w-7xl pt-16 px-10 justify-items-center grid sm:gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+      <div className="w-full max-w-7xl sm:pt-16 px-10 justify-items-center grid gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
   {/* LEFT COLUMN - Text */}
   <div className="flex flex-col justify-center items-start space-y-0 sm:space-y-2 col-span-1">
     {/* 100x DASHBOARD Text */}
