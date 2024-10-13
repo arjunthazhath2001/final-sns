@@ -55,7 +55,7 @@ export default function AcademicsPage() {
 
       {/* Section 7 */}
       <section className="sm:max-h-[1000px] md:my-24 lg:my-32 xl:mb-0 mb-8 flex items-center justify-center px-4 sm:px-6">
-        <div className="w-full xl:mt-20 text-center">
+        <div className="w-full xl:mt-2 text-center">
           <FaqAcademics/>
         </div>
       </section>
