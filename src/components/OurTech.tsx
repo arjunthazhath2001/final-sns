@@ -32,7 +32,7 @@ export default function OurTech() {
           </div>
 
           {/* Description */}
-          <p className="text-gray-700 pb-5 text-center sm:text-left dark:text-gray-400 text-[10px] sm:text-sm md:text-base max-w-md">
+          <p className="text-gray-700 pb-1 sm:pb-5 text-center sm:text-left dark:text-gray-400 text-[10px] sm:text-sm md:text-base max-w-md">
             One-of-a-kind personalized dashboard that enhances student learning experience like never before.
           </p>
 
