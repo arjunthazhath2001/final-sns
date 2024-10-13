@@ -15,7 +15,7 @@ export default function OurTech() {
       {/* Main UI Component */}
       <div className="w-full max-w-7xl pt-5 sm:pt-16 px-10 sm:justify-items-center grid sm:gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
         {/* LEFT COLUMN - Text */}
-        <div className="flex flex-col justify-center items-center sm:items-start sm:space-y-2 col-span-2 sm:col-span-1 pb-5 sm:pb-0">
+        <div className="flex flex-col justify-center items-center sm:items-start sm:space-y-2 col-span-2 sm:col-span-1 pb-2 sm:pb-0">
           {/* 100x DASHBOARD Text */}
           <p className="text-black dark:text-white text-lg sm:text-2xl font-bold">
             THE
@@ -32,7 +32,7 @@ export default function OurTech() {
           </div>
 
           {/* Description */}
-          <p className="text-gray-700 pb-1 sm:pb-5 text-center sm:text-left dark:text-gray-400 text-[10px] sm:text-sm md:text-base max-w-md">
+          <p className="text-gray-700 pb-5 text-center sm:text-left dark:text-gray-400 text-[10px] sm:text-sm md:text-base max-w-md">
             One-of-a-kind personalized dashboard that enhances student learning experience like never before.
           </p>
 
