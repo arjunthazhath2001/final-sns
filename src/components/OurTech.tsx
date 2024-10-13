@@ -28,7 +28,7 @@ export default function OurTech() {
     </p>
     {/* Description */}
     <p className="text-gray-700 pb-5 text-left dark:text-gray-400 text-sm md:text-base max-w-md">
-      One-of-a-kind personalized dashboard that<br></br> enhances student learning experience<br></br> like never before.
+      One-of-a-kind personalized dashboard that enhances student learning experience like never before.
     </p>
 
     {/* Button */}
