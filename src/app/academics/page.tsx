@@ -39,7 +39,7 @@ export default function AcademicsPage() {
       </section>
 
       {/* Section 5 */}
-      <section className="sm:max-h-[600px] md:my-24 lg:my-32 xl:mb-0 mb-8 flex items-center justify-center px-4 sm:px-6">
+      <section className="sm:max-h-[600px] md:my-24 lg:my-32 xl:mb-0 mb-16 flex items-center justify-center px-4 sm:px-6">
         <div className="w-full xl:mt-20 text-center">
           <Spine/>
         </div>
