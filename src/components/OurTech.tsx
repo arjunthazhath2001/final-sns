@@ -20,12 +20,17 @@ export default function OurTech() {
     <p className="text-black dark:text-white text-lg sm:text-2xl font-bold">
       THE
     </p>
-    <p className="text-yellow-400 text-4xl sm:text-8xl font-extrabold">
-      100x
-    </p>
-    <p className="text-black dark:text-white text-lg sm:text-5xl mb-3 font-extrabold">
-      DASHBOARD
-    </p>
+    {/* For mobile screens: "100x DASHBOARD" on one line */}
+    {/* For larger screens: "100x" and "DASHBOARD" on separate lines */}
+    <div className="sm:block inline">
+      <p className="text-yellow-400 text-6xl sm:text-8xl font-extrabold inline sm:block">
+        100x
+      </p>
+      <p className="text-black dark:text-white text-lg sm:text-5xl mb-3 font-extrabold inline sm:block">
+        DASHBOARD
+      </p>
+    </div>
+
     {/* Description */}
     <p className="text-gray-700 pb-5 text-center sm:text-left dark:text-gray-400 text-[11px] sm:text-sm md:text-base max-w-md">
       One-of-a-kind personalized dashboard that enhances student learning experience like never before.
