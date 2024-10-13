@@ -15,15 +15,15 @@ export default function OurTech() {
       {/* Main UI Component */}
       <div className="w-full max-w-7xl sm:pt-16 px-10 justify-items-center grid gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
   {/* LEFT COLUMN - Text */}
-  <div className="flex flex-col justify-center items-start space-y-0 sm:space-y-2 col-span-1 pb-6 sm:pb-0">
+  <div className="flex flex-col justify-center items-center sm:items-start space-y-0 sm:space-y-2 col-span-1 pb-2 sm:pb-0">
     {/* 100x DASHBOARD Text */}
-    <p className="text-black dark:text-white text-xl font-bold">
+    <p className="text-black dark:text-white text-lg sm:text-2xl font-bold">
       THE
     </p>
     <p className="text-yellow-400 text-5xl sm:text-8xl font-extrabold">
       100x
     </p>
-    <p className="text-black dark:text-white text-2xl sm:text-5xl font-extrabold">
+    <p className="text-black dark:text-white text-xl sm:text-5xl font-extrabold">
       DASHBOARD
     </p>
     {/* Description */}
