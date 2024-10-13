@@ -17,7 +17,7 @@ export default function OurTech() {
   {/* LEFT COLUMN - Text */}
   <div className="flex flex-col justify-center items-start space-y-2 col-span-1">
     {/* 100x DASHBOARD Text */}
-    <p className="text-black dark:text-white text-2xl font-bold">
+    <p className="text-black dark:text-white text-xl font-bold">
       THE
     </p>
     <p className="text-yellow-400 text-5xl sm:text-8xl font-extrabold">
