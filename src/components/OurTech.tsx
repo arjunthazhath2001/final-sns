@@ -4,7 +4,7 @@ import { HoverBorderGradient } from './ui/hover-border-gradient';
 
 export default function OurTech() {
   return (
-    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center sm:mt-44 space-y-4 sm:space-y-8 relative'>
+    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center sm:mt-32 space-y-4 sm:space-y-8 relative'>
       {/* Title Section */}
       <div className="w-full text-center">
         <span className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-extrabold text-black dark:text-white">
