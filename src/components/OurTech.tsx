@@ -23,7 +23,7 @@ export default function OurTech() {
     {/* For mobile screens: "100x DASHBOARD" on one line */}
     {/* For larger screens: "100x" and "DASHBOARD" on separate lines */}
     <div className="sm:block inline">
-      <p className="text-yellow-400 mr-1 text-3xl sm:text-8xl font-extrabold inline sm:block">
+      <p className="text-yellow-400 mr-3 text-3xl sm:text-8xl font-extrabold inline sm:block">
         100x
       </p>
       <p className="text-black dark:text-white text-3xl sm:text-5xl mb-3 font-extrabold inline sm:block">
