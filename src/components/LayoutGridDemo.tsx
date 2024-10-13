@@ -15,11 +15,11 @@ const SkeletonOne = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Humble Beginnings
+      SNS SPINE Music Studio
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Established in 1997 with a philanthropic outlook of serving people in the fields of education and healthcare.
+      A creative space for students and staff to play their favorite instruments, collaborate, and relax.
       </p>
     </div>
   );
@@ -29,11 +29,11 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        The Two Pillars
+      SNS SPINE Gymnasium
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Dr S N Subbramanian and Dr S Rajalaskhmi laid the foundation for what SNS institutions is today.
+      A dedicated fitness space for students and staff to stay active, improve health, and achieve their fitness goals.
       </p>
     </div>
   );
@@ -42,11 +42,11 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-         Harmony & Happiness
+      SNS SPINE Games Center 
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      In this journey filled with ups and downs, only a supportive companion can help you go far.
+      A fun spot for students and staff to unwind with billiards, board games, and social activities.
       </p>
     </div>
   );
@@ -55,11 +55,11 @@ const SkeletonFour = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        The Taste of Success
+      SNS SPINE Mini Movie Theater 
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        SNS institutions started to gain popularity among people for its quality of education.
+      A cozy space for students and staff to enjoy films, relax, and experience entertainment together.
       </p>
     </div>
   );
