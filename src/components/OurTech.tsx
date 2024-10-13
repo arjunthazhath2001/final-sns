@@ -8,7 +8,7 @@ export default function OurTech() {
       {/* Title Section */}
       <div className="w-full text-center">
         <span className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-extrabold text-black dark:text-white">
-          Our <span className='text-yellow-400'>Tech</span>
+          Our <span className='text-yellow-400'>Technology</span>
         </span>
       </div>
 
