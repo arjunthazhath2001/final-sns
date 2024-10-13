@@ -60,7 +60,7 @@ export default function OurTech() {
         </div>
 
         {/* Button for mobile screens (below the image) */}
-        <div className="block sm:hidden mt-4 flex justify-center items-center w-full">
+        <div className="sm:hidden mt-4 flex justify-center items-center w-full">
           <HoverBorderGradient className="min-w-[190px]">
             <span>Know More</span>
           </HoverBorderGradient>
