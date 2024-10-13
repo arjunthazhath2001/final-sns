@@ -48,7 +48,7 @@ export default function AcademicsPage() {
 
       {/* Section 6 */}
       <section className="sm:max-h-[600px] md:my-24 lg:my-32 xl:mb-0 mb-8 flex items-center justify-center px-4 sm:px-6">
-        <div className="w-full xl:mt-60 text-center">
+        <div className="w-full xl:mt-52 text-center">
           <OurTech/>
         </div>
       </section>
