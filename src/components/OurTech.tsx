@@ -13,11 +13,11 @@ export default function OurTech() {
       </div>
 
       {/* Main UI Component */}
-      <div className="w-full max-w-7xl pt-5 sm:pt-16 px-10 sm:justify-items-center grid sm:gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+      <div className="w-full max-w-7xl pt-2 sm:pt-16 px-10 sm:justify-items-center grid sm:gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
         {/* LEFT COLUMN - Text */}
         <div className="flex flex-col justify-center items-center sm:items-start sm:space-y-2 col-span-2 sm:col-span-1 pb-2 sm:pb-0">
           {/* 100x DASHBOARD Text */}
-          <p className="text-black dark:text-white text-lg sm:text-2xl font-bold">
+          <p className="text-black dark:text-white text-base sm:text-2xl font-bold">
             THE
           </p>
           {/* For mobile screens: "100x DASHBOARD" on one line */}
