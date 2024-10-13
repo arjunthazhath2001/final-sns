@@ -15,22 +15,37 @@ const config: Config = {
   darkMode:["class"],
   theme: {
   	extend: {
-		animation: {
-			scroll:
-			  "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
-		  },
-
-		  boxShadow: {
-			input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`,
-		  },
-
-		  keyframes: {
-			scroll: {
-			  to: {
-				transform: "translate(calc(-50% - 0.5rem))",
-			  },
-			},
-		  },
+  		animation: {
+  			scroll: 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
+  		},
+  		boxShadow: {
+  			input: '`0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`'
+  		},
+  		keyframes: {
+  			scroll: {
+  				to: {
+  					transform: 'translate(calc(-50% - 0.5rem))'
+  				}
+  			},
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

@@ -1,10 +1,10 @@
 import React from 'react';
-import { ExpandableCardDemo2 } from './ExpandableCardDemo2';
-import { ExpandableCardDemo1 } from './ExpandableCardDemo1';
+import AccordionDemo from './AccordionDemo';
+
 
 export default function FaqAcademics() {
   return (
-    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center mt-20 space-y-4 sm:space-y-8 relative'>
+    <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center space-y-4 sm:space-y-8 relative'>
       {/* Title Section */}
       <div className="w-full text-center">
         <span className="text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-extrabold text-yellow-400">FAQs <span className='text-black dark:text-white'>on Academics</span> </span>
@@ -13,16 +13,10 @@ export default function FaqAcademics() {
 
     {/* CHANGE THE MAIN UI COMPONENT HERE */}
 
-      <div className="w-full max-w-7xl px-4 md:px-0 grid sm:gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-        {/* First column of 5 cards */}
-        <div className="flex flex-col sm:gap-4">
-          <ExpandableCardDemo1/>
-          
-        </div>
-        {/* Second column of 5 cards */}
-        <div className="flex flex-col sm:gap-4">
-          <ExpandableCardDemo2/>    
-        </div>
+      <div className="w-full max-w-7xl px-10 grid sm:gap-4 grid-cols-1">
+      
+      <AccordionDemo />
+        
       </div>
 
       </div>
