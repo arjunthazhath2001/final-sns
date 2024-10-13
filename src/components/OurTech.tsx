@@ -13,7 +13,7 @@ export default function OurTech() {
       </div>
 
       {/* Main UI Component */}
-      <div className="w-full max-w-7xl pt-16 px-4 md:px-0 justify-items-center grid sm:gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+      <div className="w-full max-w-7xl pt-16 px-10 justify-items-center grid sm:gap-24 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
   {/* LEFT COLUMN - Text */}
   <div className="flex flex-col justify-center items-start space-y-2 col-span-1">
     {/* 100x DASHBOARD Text */}
